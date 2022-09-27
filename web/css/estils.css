@@ -12,6 +12,7 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
+    background-color: #f1f1f179;
   }
   header h1{
       margin-left:4%;
@@ -27,6 +28,7 @@
   section {
     float: left;
     width: 50%;
+    background-color: ;
   }
   
   aside {
@@ -44,7 +46,7 @@
     margin: 0;
     padding: 0;
     width: 210px;
-    background-color: #f1f1f1;
+    background-color: #dcf0f881;
     text-align: left;
   }
   nav ul{
@@ -52,7 +54,7 @@
     margin: 0;
     padding: 0;
     width: 150px;
-    background-color: #f1f1f1;
+    background-color: #dcf0f881;
   }
   
   aside li a, nav li a {
@@ -91,9 +93,10 @@
   /* header and footer */
   
   header, footer {
-    border-top: 5px solid #007693;
-    border-bottom: 5px solid #007693;
+    border-top: 3px solid #007693;
+    border-bottom: 3px solid #007693;
     font-family: 'Abyssinica SIL', serif;
+    background-color: white;
   }
   
   /* WRITE YOUR CODE BELOW HERE */
