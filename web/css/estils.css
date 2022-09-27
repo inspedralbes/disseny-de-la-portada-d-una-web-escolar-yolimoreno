@@ -12,7 +12,6 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
-    background-color: #f1f1f179;
   }
   header h1{
       margin-left:4%;
@@ -28,7 +27,6 @@
   section {
     float: left;
     width: 50%;
-    background-color: ;
   }
   
   aside {
@@ -45,9 +43,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 210px;
+    width: 235px;
     background-color: #dcf0f881;
     text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.103);
   }
   nav ul{
     list-style-type: none;
@@ -55,6 +54,7 @@
     padding: 0;
     width: 150px;
     background-color: #dcf0f881;
+    border: 1px solid rgba(0, 0, 0, 0.103);
   }
   
   aside li a, nav li a {
@@ -62,17 +62,21 @@
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
   }
 
   aside li a:hover, nav li a:hover {
     background-color: #007693;
     color: white;
   }
+  li:last-child{
+    border-bottom: none;
+  }
   .button {
     display: block;
     width: 115px;
     background: #00adef;
-    padding: 10px;
+    padding: 8px 16px;
     text-align: center;
     color: white;
     line-height: 25px;
