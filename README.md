@@ -1,15 +1,13 @@
-# transversals
-Esquema mínim de carpetes pels projectes transversals
+# UF1 NF1 Pt4 Composició bàsica
 
-És obligatori seguir aquesta estructura tot i que la podeu ampliar.
+El desplegament del projecte ha estat realitzat amb l'aplicació PuTTY i mitjançant un script (*actualitzar.sh*) que conté les següents ordres i que, així mateix, actualitza tot el seu contingut:
+- *wget https://raw.githubusercontent.com/inspedralbes/disseny-de-la-portada-d-una-web-escolar-yolimoreno/main/web/index.html*
+- *mkdir css*
+- *cd css*
+- *wget https://raw.githubusercontent.com/inspedralbes/disseny-de-la-portada-d-una-web-escolar-yolimoreno/main/web/css/estils.css*
+- *cd ..*
+- *mkdir img*
+- *cd img*
+- *wget https://raw.githubusercontent.com/inspedralbes/disseny-de-la-portada-d-una-web-escolar-yolimoreno/main/web/img/LogoPedralbes.png*
+- *wget https://raw.githubusercontent.com/inspedralbes/disseny-de-la-portada-d-una-web-escolar-yolimoreno/main/web/img/external-link-52.png*
 
-## Atenció
-Un cop comenceu heu de canviar aquesta explicació amb la corresponent al vostre projecte (utilitzant markdown)
-
-
-# Aquest fitxer ha de contenir com a mínim:
- * Nom dels integrants
- * Nom del projecte
- * Petita descripció
- * URL de producció (quan la tingueu)
- * Estat: (explicació de en quin punt està)
